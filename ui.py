@@ -1,7 +1,7 @@
 import streamlit as st
 from pathlib import Path
 import shutil
-from main import readme_generation_team  # import your Team
+from main_original import readme_generation_team  # import your Team
 
 BASE_DIR = Path(__file__).parent
 REPO_DIR = BASE_DIR / "repo"
